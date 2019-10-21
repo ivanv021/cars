@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about.php', function () {
+    return view('about');
+});
+
+
